@@ -1,0 +1,10 @@
+/* src/App.css */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('./assets/background.gif'); /* Definindo a imagem de fundo aqui se preferir */
+  background-size: cover;
+}

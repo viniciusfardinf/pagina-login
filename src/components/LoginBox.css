@@ -1,0 +1,35 @@
+.login-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo branco com mais transparência */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px; /* Diminuindo a largura máxima do box */
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1; /* Certifica-se de que o box está acima do fundo */
+}
+
+input {
+    width: calc(100% - 20px); /* Diminuindo a largura do campo de entrada */
+    padding: 8px;
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-box h2 {
+    text-align: center; /* Centraliza o título */
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #191970; /* Cor azul suave */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona uma transição suave ao hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Muda a cor no hover */
+}
